@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #FF5400;
+    --secondary-color: rgba(19, 19, 24, 0.70);
+    --font-size: 40px;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    border: 2px solid green;
+    max-width: 1140px;
+    margin: 50px auto;
+}
+.title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.special-style{
+    color: var(--primary-color);
+}
+
+/*     style navbar    */
+nav{
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+nav .logo{
+    display: flex;
+    gap: 25px;
+}
+nav .logo img{
+    width: 45px;
+    height: 45px;
+}
+
+nav .logo h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #424247;
+    font-weight: 400;
+}
+
+/* style Banner section */ 
+
+.banner{
+    margin: 100px 0px;
+    min-height: 500px;
+    border-radius: 16px;
+    background-image: url('images/group13.png');
+    background-position: center;
+    background-size: cover;
+    
+}
+.banner .banner-content{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+.banner .banner-content .headding{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner .banner-content .description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.quest-box{
+    border: 2px solid green;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    width: 160px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+select,button{
+    width: 160px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFF;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 0px;
+}
+
+/*  Style  Tour Section   */
+
+
+.tours-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.tour-content{
+    width: 50%;
+}
+
+.tour-point{
+    margin: 10px 15px;
+}
+.tour-description{
+    margin-top: 20px;
+}
+.tour-point ul li{
+    padding: 5.5px 0px;
+}
+.tour-image{
+    width: 50%;
+}
+.tour-image img{
+    max-width: 540px;
+    max-height: 550px;
+}
+
+/*   Styelw Destination section  */
+
+.Destination-container{
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.destination-description{
+    margin: 20px 0px;
+}
+
+.grid-image-1 img{
+    width: 100%;
+    height: 100%;
+}
+.grid-image{
+    margin-bottom: 20px;
+}
+.grid-image-1{
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-image-2{
+    max-height: 285px;
+    display: grid;
+    grid-template-columns: 354px 454px 254px;
+    gap: 20px;
+}
+.grid-image-3{
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: 455px 655px;
+   
+}
+.grid-image-3 img{
+   
+}
+    
